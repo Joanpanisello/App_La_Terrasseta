@@ -1,0 +1,44 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo" >
+ 
+    <!-- Contenido Principal -->
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logoterrasseta" />
+
+        <ImageView
+            android:id="@+id/twitter1"
+            android:layout_width="120dp"
+            
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/facebook"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="36dp"
+            android:src="@drawable/app" />
+
+    </RelativeLayout>
+ 
+    
+    <!-- Menú Lateral -->
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/fondo"
+        android:divider="@drawable/list_divider_main"
+        android:choiceMode="singleChoice" />
+ 
+</android.support.v4.widget.DrawerLayout>

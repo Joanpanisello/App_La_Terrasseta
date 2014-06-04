@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/direccio01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/texttitol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imageevento"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:adjustViewBounds="true"
+            android:paddingRight="10dp"
+            android:layout_below="@+id/texttitol"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/textlloc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageevento"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textdireccio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textlloc"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textdireccio"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textcontingut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textdata"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:text="TextView" />
+
+    </RelativeLayout>
+	
+</ScrollView>

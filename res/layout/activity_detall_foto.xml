@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:id="@+id/imageView100"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abc_ab_bottom_transparent_dark_holo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="0dp" >
+
+        <ImageView
+            android:id="@+id/imageViewesquerra"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/esquerra" />
+        
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewdreta"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/dreta" />
+    
+</RelativeLayout>

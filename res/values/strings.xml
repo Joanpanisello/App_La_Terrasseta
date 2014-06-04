@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">La Terrasseta</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_search">Search</string>
+    <string name="fragment1">Opció 1</string>
+    <string name="fragment2">Opció 2</string>
+    <string name="fragment3">Opció 3</string>
+    <string name="drawer_open">Menú Obert</string>
+    <string name="drawer_close">Menú Tancat</string>
+
+</resources>

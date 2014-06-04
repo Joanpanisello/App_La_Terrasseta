@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo" >
+
+    <TextView
+        android:id="@+id/direccio01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/telefon01"
+        android:layout_below="@+id/telefon01"
+        android:layout_marginTop="20dp"
+        android:text="Dirección:" />
+
+    <TextView
+        android:id="@+id/localitat01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/direccio01"
+        android:layout_below="@+id/direccio01"
+        android:layout_marginTop="20dp"
+        android:text="Localidad:" />
+
+    <TextView
+        android:id="@+id/direccio02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/localitat01"
+        android:layout_alignLeft="@+id/telefon02"
+        android:text="N - 340  Km 1091" />
+
+    <TextView
+        android:id="@+id/localitat02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/localitat01"
+        android:layout_alignLeft="@+id/direccio02"
+        android:text="Camarles (Tarragona)" />
+
+    <TextView
+        android:id="@+id/email02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/email01"
+        android:layout_alignBottom="@+id/email01"
+        android:layout_alignLeft="@+id/localitat02"
+        android:text="la.terrasseta.camarles@gmail.com" />
+
+    <TextView
+        android:id="@+id/telefon02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/telefon01"
+        android:layout_alignBottom="@+id/telefon01"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/localitat01"
+        android:text="977 470 207 / 665 780 624" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/email02"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="57dp"
+        android:text="Ver Mapa" />
+
+    <TextView
+        android:id="@+id/email01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/localitat01"
+        android:layout_below="@+id/localitat01"
+        android:layout_marginTop="21dp"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/telefon01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="115dp"
+        android:text="Teléfono:" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp" >
+
+        <ImageView
+            android:id="@+id/imageView150"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/imageView250"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/twitter" />
+
+    </LinearLayout>
+
+</RelativeLayout>
